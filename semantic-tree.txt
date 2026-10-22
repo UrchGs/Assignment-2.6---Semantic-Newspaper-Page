@@ -1,0 +1,34 @@
+body
+├── header [top]
+│   ├── h1  (site name)
+│   ├── p   (tagline)
+│   └── nav  (primary navigation)
+│       └── ul > li > a  (7 links)
+├── main
+│   ├── section [top-story]
+│   │   ├── h2  Top Story
+│   │   └── article [story-riverside-park]
+│   │       ├── header > h3 + p (byline, time)
+│   │       └── p, p
+│   ├── section [latest-news]
+│   │   ├── h2  Latest News
+│   │   ├── article [story-libraries]
+│   │   ├── article [story-bus-routes]
+│   │   └── article [story-bakery]
+│   ├── section[technology]
+│   │   ├── h2  Technology
+│   │   ├── article [story-coding-clubs]
+│   │   └── article [story-open-source]
+│   └── section [sports]
+│       ├── h2  Sports
+│       ├── article [story-derby]
+│       └── article [story-athletics]
+├── aside [most-read]
+│   ├── h2  Most Read
+│   └── ol > li > a  (5 links to articles)
+└── footer [contact]
+    ├── h2  Contact The Daily Horizon
+    ├── address  (postal address + email link)
+    └── p > small  (copyright)
+
+(Every article contains: header > h3 + p, followed by one or more p.)
